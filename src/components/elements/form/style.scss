@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Alexandria');
+
+
+.field-title{
+    font-family: 'Alexandria';
+    font-weight: bold;
+    span{
+        color: red;
+    }
+    .additional-note{
+        font-size: 10px;
+    }
+    .info{
+        color: green;
+    }
+    .error{
+        color: red;
+    }
+}
+
+.small{
+    font-weight: 100 !important;
+}
+
