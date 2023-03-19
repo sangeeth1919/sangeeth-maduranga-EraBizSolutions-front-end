@@ -1,0 +1,55 @@
+$submit-color: #ee5c2b;
+
+.treatment-inquery {
+    margin-top: 20px;
+
+    .treatment-person {
+        .treatment-person-hint {}
+
+        .treatment-person-select {}
+    }
+}
+
+.upper {
+    min-height: 30px;
+}
+
+.alight-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.lower {
+    min-height: 32px;
+}
+
+.horizontal-form-item {
+    padding: 0px 10px 0px 0px;
+}
+
+.btn-custom-submit {
+    border-radius: 0px !important;
+    background-color: $submit-color;
+
+    &:hover {
+        background-color: $submit-color  !important;
+    }
+}
+
+.input-custom {
+    border-radius: 0px !important;
+}
+
+.checkbox-search {
+    margin-bottom: 5px;
+}
+
+.checkbox-group {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.ant-checkbox-group-item {
+    display: block;
+}

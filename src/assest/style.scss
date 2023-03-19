@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Alexandria');
+
+
+$base-color: #35A4FB;
+$mid-blue: #032399;
+$dark-color: #012949;
+$light-color: 'white';
+$font-color-dark-back: #9e9e9ea8;
+$fade-dark-color: rgb(68 68 68 / 23%);
+$button-system-color:#ee5c2b;
+.main-container {
+    padding: 0px 65px;
+    font-family: 'Alexandria';
+}
+
+$profile-away-color: #ffc107;
+$profile-busy-color: #dc3545;
+$profile-online-color: #28a745;
+$profile-active-color: #007bff;
+
+.header {
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        img {
+            height: 100px;
+        }
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+
+
+
+        .navigation-list {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 95px;
+
+            .navigation-item {
+                cursor: pointer;
+                padding: 0px 20px;
+                margin: 9px auto;
+
+                &:hover {
+                    color: $base-color;
+                }
+
+                .active-border {
+
+                    border: 2px solid $base-color;
+                    border-radius: 2px;
+                    width: 50%;
+                    display: flex;
+                    margin: 2px auto;
+                }
+            }
+        }
+
+        .contact {
+            div {
+                padding: 10px 15px;
+                background-color: $dark-color;
+                color: white;
+
+
+                span {
+                    margin-left: 2px;
+                    color: gray;
+                }
+            }
+        }
+    }
+}
+
+.doctor-header {
+    border-bottom: 1px solid $fade-dark-color;
+    padding-bottom: 35px;
+}
+
+
+.right-border {
+    border-right: 1px solid $fade-dark-color;
+}
+
+.p1 {
+    padding: 10px;
+}
+
+
+.mt2 {
+    margin-top: 20px;
+}
+
+.mt3 {
+    margin-top: 30px;
+}
+
+.ant-select-selector {
+    border-radius: 0px !important;
+}
+
+.ant-input {
+    border-radius: 0px;
+}
+
+.ant-input-search-button {
+    border-radius: 0px !important;
+}
+
+.border-1 {
+    border: 1px solid $fade-dark-color;
+    padding: 8px !important;
+}
+
+.loading-div {
+
+    padding-top: 200px;
+    width: fit-content;
+    margin: auto;
+}
+
+.card-container-active {
+
+    border: 1px solid $dark-color;
+    padding: 35px 10px 44px 10px;
+    background-color: $dark-color;
+    color: white;
+
+    .card-header {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            border: 1px solid $font-color-dark-back;
+            padding: 2px 10px;
+            background-color: $dark-color;
+            color: $font-color-dark-back;
+            cursor: pointer;
+        }
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+
+        .image-container-second {
+            border: 1px solid $font-color-dark-back;
+            display: flex;
+            padding: 3px;
+            border-radius: 50%;
+        }
+
+        .doctor-image-small {
+            border-radius: 50%;
+            border: 1px solid $font-color-dark-back;
+            padding: 3px;
+            width: 80px;
+            height: 80px;
+        }
+
+    }
+
+    .doctor-name {
+        margin: 15px 0px 5px 0px;
+        font-family: 'Alexandria';
+        font-size: 17px;
+        color: $light-color  !important;
+    }
+
+    .profile-Action {
+        
+        display: flex;
+        justify-content: center;
+
+        div {
+            cursor: pointer;
+            padding: 0px 10px;
+        }
+    }
+
+    .additional-data-container{
+        height: 190px;
+        .additional-data{
+            border-left: 2px solid  $font-color-dark-back;
+        }
+    
+        .booking-link{
+            cursor: pointer;
+            margin-top: 20px;
+           padding: 0px 11px;
+        }
+    }
+
+    
+}
+
+.card-container {
+    border: 1px solid $fade-dark-color;
+    padding: 50px 10px;
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        border: 1px solid white;
+
+        .doctor-image-large {
+
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+
+        }
+
+
+
+        .away {
+            padding: 3px;
+            border: 1px solid $profile-away-color;
+        }
+
+        .busy {
+            padding: 3px;
+            border: 1px solid $profile-busy-color;
+        }
+
+        .online {
+            padding: 3px;
+            border: 1px solid $profile-online-color;
+        }
+
+        .active {
+            padding: 3px;
+            border: 1px solid $profile-active-color;
+        }
+    }
+
+
+    .doctor-name {
+        margin: 25px 0px 5px 0px;
+        font-family: 'Alexandria';
+        font-size: 17px;
+        color: $mid-blue  !important;
+    }
+
+
+}
+
+
+.center-font {
+    text-align: center;
+}
+
+.data-show {
+    font-family: 'Alexandria';
+    padding: 5px 10px;
+
+    .lable {
+        color: $font-color-dark-back;
+    }
+
+    .value {}
+
+    .lable-opesit {
+         color: rgb(247 247 247 / 78%);
+    }
+
+    .value-opesit {
+        color: $font-color-dark-back;
+        font-size: 11px;
+    }
+
+    
+}
+
+.appoiment-form{
+    .appoiment-form-field{
+        margin: 15px 0px;
+    }
+}
+.btn-custom-squre{
+    border-radius: 0px !important;
+}
+
+:where(.css-dev-only-do-not-override-ph9edi).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner, :where(.css-dev-only-do-not-override-ph9edi).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner, :where(.css-dev-only-do-not-override-ph9edi).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+    color: #fff;
+    background: $button-system-color;
+}
+
+:where(.css-dev-only-do-not-override-ph9edi).ant-picker-dropdown .ant-picker-time-panel-column >li.ant-picker-time-panel-cell-selected .ant-picker-time-panel-cell-inner {
+    color: #fff;
+    background: $button-system-color;
+}
+
+:where(.css-dev-only-do-not-override-ph9edi).ant-btn-primary {
+    color: #fff;
+    background-color: $button-system-color;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+
+
+.not-found{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
