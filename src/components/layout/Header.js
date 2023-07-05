@@ -27,9 +27,10 @@ function Header(props) {
         <div className="navigation-list">
        
           <div className="navigation-item" onClick={() => navigation('/home')}>Home<div className={`${pathName=='/home' || pathName=='/'?"active-border":""}`}></div></div>
-          <div className="navigation-item" onClick={() => navigation('/doctor')}>Doctor<div className={`${pathName=='/doctor'?"active-border":""}`}></div></div>
+          <div className="navigation-item" onClick={() => navigation('/translator')}>Translator<div className={`${pathName=='/translator'?"active-border":""}`}></div></div>
+          {/* <div className="navigation-item" onClick={() => navigation('/doctor')}>Doctor<div className={`${pathName=='/doctor'?"active-border":""}`}></div></div>
           <div className="navigation-item" onClick={() => navigation('/channel')}>Services<div className={`${pathName=='/channel'?"active-border":""}`}></div></div>
-          <div className="navigation-item" onClick={() => navigation('/channel')}>Review<div className={`${pathName=='/channel'?"active-border":""}`}></div></div>
+          <div className="navigation-item" onClick={() => navigation('/channel')}>Review<div className={`${pathName=='/channel'?"active-border":""}`}></div></div> */}
 
         </div>
         <div className="contact">

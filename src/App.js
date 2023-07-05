@@ -3,7 +3,10 @@ import { BrowserRouter as Router, Routes, Route, Redirect } from "react-router-d
 
 import store from './store';
 import Main from "./components/layout/Main";
-import Doctor from "./components/pages/doctor/Doctor";
+import Translator from "./components/pages/translator/Translator";
+
+import TranslationPage from "./components/pages/translator/page/TranslationPage";
+
 import Home from "./components/pages/home/Home";
 function App() {
   return (
@@ -16,8 +19,8 @@ function App() {
 
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
-              <Route path="/doctor" element={<Doctor />} />
-
+              <Route path="/translator" element={<Translator />} />
+              <Route path="/translator-page" element={<TranslationPage />} />
 
             </Routes>
           </Main>

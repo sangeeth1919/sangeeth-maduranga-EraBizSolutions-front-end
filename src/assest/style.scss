@@ -309,3 +309,12 @@ $profile-active-color: #007bff;
     justify-content: center;
     padding-top: 65px;
 }
+
+.body-container{
+    margin-top: 20px;
+
+    .create-new-template{
+        display: flex;
+        justify-content: end;
+    }
+}
